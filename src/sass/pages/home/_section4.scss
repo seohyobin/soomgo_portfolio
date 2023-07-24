@@ -1,0 +1,121 @@
+#section4{
+    width: 100%;
+    margin-bottom: 5rem;
+    .container{
+        width: 100%;
+        max-width: 970px;
+        margin: 0 auto;
+        .title{
+            @include align_center;
+            h2{
+                @include h2_text;
+                margin-bottom: 1.5rem;
+            }
+            >button{
+                width: 1.25rem;
+                height: 1.25rem;
+                background: url(../../../../public/images/inform_circle.svg) no-repeat center center;
+                background-size: cover;
+                margin-left: 0.25rem;
+                transform: translateY(-60%);
+                opacity: 0.3;
+            }
+        }
+        .content{
+            width: 100%;
+            .pro-advertise__list{
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                column-gap: 1rem;
+                .pro-advertise__item{
+                    border: 1px solid $soomgo-sub__color;
+                    border-radius: 0.5rem;
+                    padding: 1.5rem 1.25rem;
+                    .pro-advertise__card{
+                        .pro-advertise__header{
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            .pro__info{
+                                display: flex;
+                                align-items: center;
+                                >img{
+                                    width: 3rem;
+                                    height: 3rem;
+                                    border: 1px solid $soomgo-gray2__color;
+                                    border-radius: 50%;
+                                    margin-right: 0.5rem;
+                                    object-fit: cover;
+                                }
+                                .pro__brand{
+                                    .pro__service{
+                                        font-size: 0.75rem;
+                                        text-align: left;
+                                        text-overflow: ellipsis;
+                                        color: $sub-text__color;
+                                        white-space: nowrap; // 한줄로 표시
+                                    }
+                                    .pro__name{
+                                        margin-top: 0.125rem;
+                                        font-weight: 700;
+                                    }
+                                }
+                            }
+                            .more{
+                                @include align_center;
+                                min-width: fit-content;
+                                font-size: 0.875rem;
+                                font-weight: 500;
+                                color: $soomgo-main__color;
+                                margin-left: auto;
+                                >span{
+                                    margin-right: 0.0625rem;
+                                }
+                                i{
+                                    margin-top: 0.0625rem;
+                                }
+                            }
+                        }
+                        .pro-advertise__intro{
+                            margin: 1rem 0 0.75rem;
+                            height: min-content(3rem, 2.5rem);
+                            line-height: 1.25rem;
+                            text-overflow: ellipsis;
+                            overflow: hidden;
+                            -webkit-line-clamp: 2; // 라인수
+                            -webkit-box-orient: vertical;
+                        }
+                        .pro-advertise__ect{
+                            @include align_center;
+                            .review-rate{
+                                display: inline-flex;
+                                align-items: center;
+                                >span{
+                                    &:first-child{
+                                        background: url(../../../../public/images/star_icon.svg) no-repeat center center;
+                                        background-size: cover;
+                                        width: 0.875rem;
+                                        height: 0.875rem;
+                                    }
+                                    &.rate{
+                                        margin: 0 0.0625rem 0 0.125rem;
+                                        font-weight: 500;
+                                        font-size: 0.875rem;
+                                    }
+                                    &.review{
+                                        font-size: 0.75rem;
+                                        color: $sub-text__color;
+                                    }
+                                }
+                            }
+                            >span{
+                                font-size: 0.875rem;
+                                color: $sub-text__color;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

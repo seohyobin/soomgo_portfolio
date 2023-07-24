@@ -1,0 +1,14 @@
+#section8{
+    margin-bottom: 5rem;
+    .container{
+        @include layout_gap;
+        max-width: 970px;
+        margin: 0 auto;
+        .img__wrap{
+            display: block;
+            height: 5.625rem;
+            background: url(../../../../public/images/home/main-banner.webp) no-repeat center center;
+            background-size: cover;
+        }
+    }
+}

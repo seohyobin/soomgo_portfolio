@@ -1,0 +1,172 @@
+#section7{
+    margin-bottom: 5rem;
+    .container{
+        
+        max-width: 970px;
+        margin: 0 auto;
+        .title{
+            @include align_center;
+            justify-content: space-between;
+            margin-bottom: 1.5rem;
+            h2{
+                @include h2_text;
+            }
+            .show__all{
+                color: $soomgo-main__color;
+                @include align_center;
+                >span{
+                    font-size: 1rem;
+                }
+                >img{
+                    margin-top: 0.125rem;
+                }
+            }
+        }
+        .content{
+            width: 100%;
+            .popular-pro__category{
+                width: 100%;
+                margin-bottom: 1rem;
+                .pro-category__btn{
+                    padding: 0.5rem 0.625rem;
+                    margin: 0 0.5rem 0.5rem 0;
+                    border: 0;
+                    border-radius: .5rem;
+                    font-size: 0.875rem;
+                    font-weight: 500;
+                    background-color: $soomgo-sub__color;
+                    color: #2d2d2d;
+                    @include transition;
+                    &.on{
+                        background-color: $soomgo-btn__on;
+                        color: $soomgo-main__color;
+                    }
+                }
+            }
+            .popular-pro__container{
+                width: 100%;
+                position: relative;
+                .popular-pro__box{
+                    width: 100%;
+                    overflow: hidden;
+                    .popular-pro__wrap{
+                        display: grid;
+                        column-gap: 0.5rem;
+                        >li{
+                            width: 100%;
+                            >a{
+                                display: block;
+                                width: 100%;
+                                height: 100%;
+                                padding: 0.75rem;
+                                border-radius: 0.5rem;
+                                background-color: $soomgo-sub__color;
+                            }
+                        }
+                        .meet-pro__item{
+                            >a{
+                                >img{
+                                    width: 3.5rem;
+                                    height: 3.5rem;
+                                    margin-bottom: 1rem;
+                                }
+                                .meet-pro__num{
+                                    width: 100%;
+                                    font-size: 1rem;
+                                    font-weight: 700;
+                                    .meet-pro__total{
+                                        color: $soomgo-pay__color;
+                                    }
+                                }
+                                .meet-pro__subtext{
+                                    width: 100%;
+                                    font-size: 1rem;
+                                    font-weight: 700;
+                                    >img{
+                                        margin-top: 0.225rem;
+                                        filter: brightness(0);
+                                    }
+                                }
+                            }
+                        }
+                        .popular-pro__item{
+                            >a{
+                                .popular-pro__header{
+                                    margin-bottom: 1rem;
+                                    display: flex;
+                                    justify-content: space-between;
+                                    align-items: flex-start;
+                                    .popular-pro__img{
+                                        width: 3.5rem;
+                                        height: 3.5rem;
+                                        border-radius: 50%;
+                                        border: 0.0625rem solid $soomgo-sub__color;
+                                        overflow: hidden;
+                                        >img{
+                                            width: 100%;
+                                            height: 100%;
+                                        }
+                                    }
+                                    .popular-pro__desc{
+                                        @include layout_center;
+                                        >img{
+                                            display: block;
+                                        }
+                                        >span{
+                                            font-size: 0.875rem;
+                                            font-weight: 700;
+                                            margin: 0 0.125rem;
+                                        }
+                                    }
+                                }
+                                .popular-pro__name{
+                                    font-size: 1rem;
+                                    font-weight: 700;
+                                    margin-bottom: 1rem;
+                                    @include text_overflow;
+                                }
+                                .chips{
+                                    margin-left: 0.1875rem;
+                                    height: 1.375rem;
+                                    display: flex;
+                                    justify-content: flex-start;
+                                    margin-bottom: 1rem;
+                                    .soomgopay-chip{
+                                        width: fit-content;
+                                        border-radius: 0.25rem;
+                                        background-color: $soomgo-sub__color;
+                                        padding: 0.1875rem 0.3125rem;
+                                        display: flex;
+                                        >img{
+                                            display: block;
+                                        }
+                                        >span{
+                                            color: $soomgo-pay__color;
+                                            font-size: .75rem;
+                                            font-weight: 500;
+                                            line-height: 1rem;
+                                            margin-left: 0.1875rem;
+                                        }
+                                    }
+                                }
+                                .sub-info{
+                                    font-size: 0.625rem;
+                                    color: $sub-text__color;
+                                    >span{
+                                        &:nth-child(2)::before{
+                                            content: '';
+                                            margin: 0 0.25rem;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .popular-pro__btn{
+                    @include main-slide__btn;
+                }
+            }
+        }
+    }
+}

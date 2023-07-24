@@ -1,0 +1,92 @@
+
+    #c-header{
+        width: 100%;
+        max-width: 970px;
+        margin: 0 auto;
+        .c-container{
+            width: 100%;
+            .c-title{
+                width: 100%;
+                padding: 50px 0 0 0;
+              
+                .c-title-wrap{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    height: 49px;
+                    width: 100%;
+                    margin:  0 0 30px 0;
+                    h1{
+                        font-size: 34px;
+                        font-weight: 500;
+                        color: #323232;
+                    }
+                    button{
+                        text-align: center;
+                        width: 120px;
+                        height: 44px;
+                        padding: 10px 25px;
+                        border-radius: 6px;
+                        font-size: 16px;
+                        font-weight: 500;
+                        
+                        img{
+                            width: 22px;
+                            height: 22px;
+                            padding: 0 0 3px 5px;
+                        }
+                        &:hover{
+                            background-color: #00a18d;
+                            border-color: #009481;
+                        }
+                    }
+                }
+                .c-nav{
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+                    height: 49px;
+                    width: 100%;
+                    border-bottom:0.0625rem solid #f3f3f3 ;
+                    > li{ 
+                        padding: 0 7px 0 0;
+                        &:nth-child(2){
+                            margin-left:10px ;
+                        }
+                        
+                        > a{
+                            font-size:16px;
+                            line-height: 24px;
+                            padding: 10px 4px 12px 4px;
+                            color: #a9a9a9;
+              
+                            &.on{
+                                border-bottom: 2px solid #323232;
+                                color: #323232; 
+                                font-weight: 700;
+                            }
+
+                        }
+                    }
+                }
+            } 
+            .c-content{
+                width: 100%;
+                padding: 30px 0 0 0;
+                
+                .left-right{
+                    display: flex;
+                    width: 100%;
+                    .left{
+                        width: 200px;
+                    }
+                    .right{
+                        width: 600px;
+                        margin-left: 85px;
+                    }
+                }
+   
+
+            }
+        }
+    }

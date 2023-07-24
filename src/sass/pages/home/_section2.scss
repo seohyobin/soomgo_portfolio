@@ -1,0 +1,36 @@
+#section2{
+    margin: 2rem 0 4rem;
+    .container{
+        width: 100%;
+        max-width: 970px;
+        margin: 0 auto;
+        .main-category__wrap{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            padding: 1rem;
+            .main-category__item{
+                text-align: center;
+                padding: 0 0.5rem;
+                @include transition;
+                &:hover{
+                    transform: translateY(-0.5rem);
+                }
+                .main-category__link{
+                    .main-category__icon{
+                        >img{
+                            width: 3.25rem;
+                        }
+                        >p{
+                            font-size: 1rem;
+                            font-weight: 500;
+                            line-height: 1.25rem;
+                            text-align: center;
+                            margin-top: 0.25rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

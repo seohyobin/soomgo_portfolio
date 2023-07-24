@@ -1,0 +1,21 @@
+#section14{
+ 
+    .container{
+        .title{}
+        .content{
+            .location__wrap{
+                display: grid;
+                .location__item{
+                    padding: 0 1rem 1.5rem 0;
+                    .location__link{
+                        background-color: $soomgo-btn__on;
+                        color: $soomgo-main__color;
+                        text-align: center;
+                        font-size: 0.875rem;
+                        border-radius: 2.25rem;
+                    }
+                }
+            }
+        }
+    }
+}

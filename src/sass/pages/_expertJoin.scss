@@ -1,0 +1,512 @@
+#expertJoin{
+    width: 100%;
+    .container{
+        width: 100%;
+        margin: 0 auto;
+        .gap{
+            width: 100%;
+            .content{
+                width: 100%;
+                .section1{
+                    position: relative;
+                    background: #57d4c5;
+                    .img-box{
+                        position: relative;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        img{
+                            position: relative;
+                            width: auto;
+                        }
+                        span{
+                            position: absolute;
+                            top: 20%;
+                            left: 25%;
+                            font-size: 2.25rem;
+                            font-weight: 600;
+                            color: #fff;
+                            line-height: 1.28;
+                        }
+                    }
+                }
+                .section2{
+                    position: absolute;
+                    left: 0;
+                    right: 0;
+                    top: 24.25rem;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    .sec2-box{
+                        width: 1000px;
+                        height: 191px;
+                        padding: 28px 45px;
+                        background: #fff;
+                        border-radius: .625rem;
+                        box-shadow: 0 0 1.25rem 0 rgba(0,0,0,.1);
+                        .row1{
+                            width: 100%;
+                            margin: 0 0 16px 0;
+                            h1{
+                                text-align: center;
+                                font-size: 16px;
+                            }
+                        }
+                        .row2{
+                            width: 100%;
+                            ul{
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                li{
+                                    width: 113px;
+                                    height: 91px;
+                                    .sub-box{
+                                        a{
+                                            .img-box{
+                                                display: flex;
+                                                align-items: center;
+                                                justify-content: center;
+                                                 transition: all 0.1s;
+                                                &:hover{
+                                                    transform: translateY(-0.8rem);
+                                                }
+                                                img{
+                                                    width: 52px;
+                                                    height: 52px;
+                                                }
+                                            }
+                                            .txt-box{
+                                                display: flex;
+                                                align-items: center;
+                                                justify-content: center;
+                                                span{
+
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .section3{
+                    padding: 170px 0;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    background: #f9f9f9;
+                    .row1{
+                        margin: 20px 0px 30px;
+                        h1{
+                            font-size: 32px;
+                        }
+                    }
+                    .row2{
+                        margin: 0 0 16px 0;
+                        p{
+                            color: #909090;
+                        }
+                    }
+                    .row3{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        ul{
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            li{
+                                width: 333px;
+                                height: 136px;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                .sub-box{
+                                    .num{
+                                        h2{
+                                            font-size: 3.125rem;
+                                            color: #00c7ae;
+                                        }
+                                    }
+                                    .txt{
+                                        text-align: center;
+                                        p{
+
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .section4{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    padding: 50px 0;
+                   > .row1{
+                    margin: 0 0 50px 0;
+                        h1{
+                            font-size: 30px;
+                            font-weight: 500;
+                            text-align: center;
+                            color: #000;
+                        }
+                    }
+                   > .row2{
+                        ul{
+                            display: flex;
+                            li{
+                                width: 333px;
+                                padding: 0 15px;
+                                .row1{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                    img{
+                                        width: auto;
+                                    }
+                                }
+                                .row2{
+                                    margin: 20px 0;
+                                    h2{
+                                        font-size: 20px;
+                                        font-weight: 500;
+                                        text-align: center;
+                                        color: #323232;
+                                    }
+                                }
+                                .row3{
+                                    margin: 0 0 50px 0;
+                                    p{
+                                        font-size: .875rem;
+                                        word-break: keep-all;
+                                        text-align: center;
+                                        color: #5a5a5a;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .row3{
+                        text-align: center;
+                        button{
+                            width: 140px;
+                            height: 56px;
+                            padding: 15px 30px;
+                            font-size: 1rem;
+                            border-radius: 5px;
+                        }
+                    }
+                }
+                .section5{
+                    margin: 50px 0 0 0;
+                    .row1{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        margin: 0 0 50px 0;
+                        h1{
+                            font-size: 30px;
+                            color: #000;
+                        }
+                    }
+                    .row2{
+
+                        .slide-contianer{
+                            width: 970px;
+                            margin: 0 auto;
+                            position: relative;
+                            .slide-view{
+                                z-index: 1;
+                                width: 100%;
+                                position: relative;
+                                overflow: hidden;
+                                .slide-wrap{
+                                    width: 100%;
+                                    display: flex;
+                                    margin: 0;
+                                    position: relative;
+                                    .slide{
+                                        .content-box{
+                                            display: flex;
+                                            .left{
+                                                position: relative;
+                                                img{
+                                                    position: relative;
+                                                    width: 150px;
+                                                    height: 182px;
+                                                }
+                                                h2{
+                                                    position: absolute;
+                                                    bottom: 30px;
+                                                    left: 20px;
+                                                    color: #fff;
+                                                    font-size: 16px;
+                                                    line-height: 120%;
+                                                    width: 100px;
+                                                }
+                                                h3{
+                                                    position: absolute;
+                                                    bottom: 10px;
+                                                    left: 20px;
+                                                    color: #fff;
+                                                    font-size: 14px;
+                                                    width: 100px;
+                                                }
+                                            }
+                                            .right{
+                                                position: relative;
+                                                width: 820px;
+                                                border-top: 1px solid #000;
+                                                border-right: 1px solid #000;
+                                                border-bottom: 1px solid #000;
+                                                p{
+                                                    padding: 24px;
+                                                }
+                                                button{
+                                                    position: absolute;
+                                                    bottom: 20px;
+                                                    right: 10px;
+                                                    background: #fff;
+                                                    color: #222;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        .button-box{
+                            width: 1030px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            position: absolute;
+                            right: 0;
+                            li{
+                                button{
+                                    width: 20px;
+                                    height: 20px;
+                                }
+                            }
+                        }
+                    }
+                }
+                .section6{
+                    position: relative;
+                    width: 1000px;
+                    height: 1200px;
+                    padding: 0 0 100px 0;
+                    display: flex;
+                    flex-direction: column;
+                    margin: 0 auto;
+                    .row1{
+                        display: flex;
+                        flex-direction: column;
+                        h2{
+                            text-align: center;
+                            font-size: 36px;
+                            color: #000;
+                            margin: 20px 0 30px 0;
+                        }
+                        h3{
+                            text-align: center;
+                            font-size: 16px;
+                            color: #909090;
+                            margin: 0 0 50px 0;
+                        }
+                    }
+                    .row2{
+                        position: relative;
+                        cursor: pointer;
+                        display: flex;
+                        width: 1000px;
+                        .content1{
+                            background: url(../../../public/images/gosu/clip_img_04.jpg) no-repeat 50% 50%;
+                            width: 650px;
+                            height: 628px;
+                            background-size: cover;
+                            background-position: 50%;
+                            padding: 1.25rem;
+                            position: absolute;
+                            img{
+                                position: absolute;
+                                top: 50%;
+                                left: 50%;
+                                width: 2.5rem;
+                                height: 2.5rem;
+                                margin-top: -1.25rem;
+                                margin-left: -1.25rem;
+                            }
+                            h3{
+                                font-size: 1.25rem;
+                                color: #fff;
+                                font-weight: 100;
+                                margin-bottom: 0;
+                                position: absolute;
+                                bottom: 1.75rem;
+                                line-height: 1.1;
+                                small{
+                                    font-size: .875rem;
+                                    color: #fff;
+                                    display: block;
+                                    margin-top: 0.3125rem;
+                                    line-height: 1;
+                                }
+                            }
+                        }
+                        .content2{
+                            background: url(../../../public/images/gosu/clip_img_05.jpg) no-repeat 50% 50%;
+                            width: 317px;
+                            height: 306px;
+                            background-size: cover;
+                            background-position: 50%;
+                            padding: 1.25rem;
+                            position: absolute;
+                            right: 20px;
+                            img{
+                                position: absolute;
+                                top: 50%;
+                                left: 50%;
+                                width: 2.5rem;
+                                height: 2.5rem;
+                                margin-top: -1.25rem;
+                                margin-left: -1.25rem;
+                            }
+                            h3{
+                                font-size: 1.25rem;
+                                color: #fff;
+                                font-weight: 100;
+                                margin-bottom: 0;
+                                position: absolute;
+                                bottom: 1.75rem;
+                                line-height: 1.1;
+                                small{
+                                    font-size: .875rem;
+                                    color: #fff;
+                                    display: block;
+                                    margin-top: 0.3125rem;
+                                    line-height: 1;
+                                }
+                            }
+                        }
+                        .content3{
+                            background: url(../../../public/images/gosu/clip_img_06.jpg) no-repeat 50% 50%;
+                            width: 317px;
+                            height: 306px;
+                            background-size: cover;
+                            background-position: 50%;
+                            padding: 1.25rem;
+                            position: absolute;
+                            right: 20px;
+                            top: 320px;
+                            img{
+                                position: absolute;
+                                top: 50%;
+                                left: 50%;
+                                width: 2.5rem;
+                                height: 2.5rem;
+                                margin-top: -1.25rem;
+                                margin-left: -1.25rem;
+                            }
+                            h3{
+                                font-size: 1.25rem;
+                                color: #fff;
+                                font-weight: 100;
+                                margin-bottom: 0;
+                                position: absolute;
+                                bottom: 1.75rem;
+                                line-height: 1.1;
+                                small{
+                                    font-size: .875rem;
+                                    color: #fff;
+                                    display: block;
+                                    margin-top: 0.3125rem;
+                                    line-height: 1;
+                                }
+                            }
+                        }
+                        .content4{
+                            background: url(../../../public/images/gosu/clip_img_07.jpg) no-repeat 50% 50%;
+                            width: 317px;
+                            height: 306px;
+                            background-size: cover;
+                            background-position: 50%;
+                            padding: 1.25rem;
+                            position: absolute;
+                            left: 0;
+                            bottom: -950px;
+                            img{
+                                position: absolute;
+                                top: 50%;
+                                left: 50%;
+                                width: 2.5rem;
+                                height: 2.5rem;
+                                margin-top: -1.25rem;
+                                margin-left: -1.25rem;
+                            }
+                            h3{
+                                font-size: 1.25rem;
+                                color: #fff;
+                                font-weight: 100;
+                                margin-bottom: 0;
+                                position: absolute;
+                                bottom: 1.75rem;
+                                line-height: 1.1;
+                                small{
+                                    font-size: .875rem;
+                                    color: #fff;
+                                    display: block;
+                                    margin-top: 0.3125rem;
+                                    line-height: 1;
+                                }
+                            }
+                        }
+                        .content5{
+                            background: url(../../../public/images/gosu/clip_img_09.jpg) no-repeat 50% 50%;
+                            width: 650px;
+                            height: 306px;
+                            background-size: cover;
+                            background-position: 50%;
+                            padding: 1.25rem;
+                            position: absolute;
+                            right: 20px;
+                            bottom: -950px;
+                            img{
+                                position: absolute;
+                                top: 50%;
+                                left: 50%;
+                                width: 2.5rem;
+                                height: 2.5rem;
+                                margin-top: -1.25rem;
+                                margin-left: -1.25rem;
+                            }
+                            h3{
+                                font-size: 1.25rem;
+                                color: #fff;
+                                font-weight: 100;
+                                margin-bottom: 0;
+                                position: absolute;
+                                bottom: 1.75rem;
+                                line-height: 1.1;
+                                small{
+                                    font-size: .875rem;
+                                    color: #fff;
+                                    display: block;
+                                    margin-top: 0.3125rem;
+                                    line-height: 1;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

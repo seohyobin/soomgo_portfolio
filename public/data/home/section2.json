@@ -1,0 +1,13 @@
+{
+    "category": [
+        {"kind": "레슨", "imgSrc": "./images/home/section2/lesson.svg"},
+        {"kind": "홈/리빙", "imgSrc": "./images/home/section2/home-living.svg"},
+        {"kind": "이벤트", "imgSrc": "./images/home/section2/event.svg"},
+        {"kind": "비즈니스", "imgSrc": "./images/home/section2/business.svg"},
+        {"kind": "디자인/개발", "imgSrc": "./images/home/section2/design-development.svg"},
+        {"kind": "건강/미용", "imgSrc": "./images/home/section2/health-beauty.svg"},
+        {"kind": "알바", "imgSrc": "./images/home/section2/part-time-job.svg"},
+        {"kind": "기타", "imgSrc": "./images/home/section2/etc.svg"}
+
+    ]
+}

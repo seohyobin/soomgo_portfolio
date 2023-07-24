@@ -1,0 +1,120 @@
+#header{
+    grid-area: header;
+    height: 4.5rem; // 반응형 min-width 992px ~
+    @include layout_gap;
+    @include align_center;
+    border-bottom:0.0625rem solid #f3f3f3 ;
+    .nav-bar__container{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .nav-bar__left{
+            @include align_center;
+            .nav-bar__img{
+                margin-right: 1.875rem;
+                a{
+                    img{
+                        height: 1.6875rem;
+                    }
+                }
+            }
+            .nav-bar__list{
+                display: flex;
+                >li{
+                    &:not(:first-child){
+                        margin-left: 1.125rem;
+                    }
+                    >a{
+                        font-size: $main-text__size;
+                        font-weight: 500;
+                    }
+                }
+            }
+        }
+        .nav-bar__center{
+            .nav-bar__search{
+                @include align_center;
+                width: 17.5rem;
+                height: 2.75rem;
+                padding: 0 0.75rem;
+                position: relative;
+                &.on{
+                    border: 0.125rem solid $soomgo-main__color;
+                    border-top-left-radius: 0.375rem;
+                    border-top-right-radius: 0.375rem;
+                }
+                .nav-bar__icon{
+                    padding-right: 0.5rem;
+                    cursor: pointer;
+                    >img{
+                        @include icon_img;
+                    }
+                }
+                .nav-bar__input{
+                    border: 0;
+                    &::placeholder{
+                        font-size: $sub-text__size;
+                        color: $soomgo-main__color;
+                    }
+                    &:focus{
+                        outline: none;
+                    }
+                }
+                .nav-bar__btn{
+                    >img{
+                        @include icon_img;
+                        z-index: 2;
+                    }
+                }
+            }
+            .nav-bar__suggest{
+                .suggest__container{
+                    .suggest__tap{
+                        >li{
+                            >a{}
+                        }
+                    }
+                    .suggest__list{
+                        >li{
+                            >a{}
+                        }
+                    }
+                }
+                .suggest__btn{
+                    >div{}
+                }
+            }
+        }
+        .nav-bar__right{
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            .nav-bar__user{
+                display: flex;
+                >li{
+                    &:not(:first-child){
+                        margin-left: 1rem;
+                    }
+                    button{
+                        background: #fff;
+                        color: #222;
+                    }
+                }
+            }
+            >a{
+                .nav-join__button{
+                    margin-left: 1rem;
+                    font-size: $sub-text__size;
+                    padding: 0.40625rem 0;
+                    width: 5rem;
+                    border-radius: 6px;
+                    &:hover{
+                        background-color: #00a18d;
+                        border-color: #009481;
+                    }
+                }
+            }
+        }
+    }
+}

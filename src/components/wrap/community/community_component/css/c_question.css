@@ -1,0 +1,209 @@
+#c-all {
+  width: 600px;
+}
+#c-all .content {
+  width: 100%;
+  position: relative;
+}
+#c-all .content .input {
+  display: flex;
+  position: relative;
+  padding: 0 0 80px 0;
+}
+#c-all .content .input img {
+  position: absolute;
+  top: 13px;
+  left: 15px;
+  width: 18px;
+  height: 18px;
+}
+#c-all .content .input input {
+  width: 100%;
+  height: 44px;
+  background-color: #f4f4f4;
+  padding: 8px 16px 8px 40px;
+  font-size: 16px;
+  background-color: rgb(244, 244, 244);
+  border-radius: 8px;
+  border: 0;
+}
+#c-all .content .input input::-moz-placeholder {
+  color: rgb(185, 185, 185);
+}
+#c-all .content .input input::placeholder {
+  color: rgb(185, 185, 185);
+}
+#c-all .content .banner {
+  margin-bottom: 32px;
+}
+#c-all .content .banner .banner-wrap1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 72px;
+  background-color: #fff6e9;
+  color: rgb(50, 50, 50);
+  border-radius: 8px;
+  padding: 16px 24px;
+}
+#c-all .content .banner .banner-wrap1 p {
+  font-size: 14px;
+  font-weight: 500;
+  color: rgba(50, 50, 50, 0.7);
+  line-height: 20px;
+}
+#c-all .content .banner .banner-wrap1 p span {
+  width: 100%;
+  font-size: 14px;
+  font-weight: 700;
+  color: rgb(50, 50, 50);
+  line-height: 20px;
+  transform: translateY(3px);
+}
+#c-all .content .btn-wrap {
+  width: 100%;
+  height: 54px;
+  padding: 8px;
+}
+#c-all .content .btn-wrap button {
+  height: 38px;
+  padding: 8px 16px;
+}
+#c-all .content .btn-wrap .service {
+  height: 38px;
+  padding: 8px 16px;
+  margin: 0 8px 0 0;
+  width: 92.64px;
+  border-radius: 19px;
+  background-color: #fff;
+  color: rgb(45, 45, 45);
+  border: 1px solid rgb(225, 225, 225);
+}
+#c-all .content .btn-wrap .service span {
+  font-size: 14px;
+}
+#c-all .content .btn-wrap .service img {
+  width: 16px;
+  height: 16px;
+  margin-bottom: 5px;
+}
+#c-all .content .btn-wrap .location {
+  height: 38px;
+  padding: 8px 16px;
+  margin: 0 8px 0 0;
+  width: 80.64px;
+  border-radius: 19px;
+  background-color: #fff;
+  color: rgb(45, 45, 45);
+  border: 1px solid rgb(225, 225, 225);
+}
+#c-all .content .btn-wrap .location span {
+  font-size: 14px;
+}
+#c-all .content .btn-wrap .location img {
+  width: 16px;
+  height: 16px;
+  margin-bottom: 5px;
+}
+#c-all .content .btn-wrap .blind {
+  display: none;
+}
+#c-all .content .feed-list {
+  width: 100%;
+}
+#c-all .content .feed-list .feed {
+  width: 100%;
+  padding: 20px 8px;
+  border-bottom: 1px solid rgb(244, 244, 244);
+}
+#c-all .content .feed-list .feed > a {
+  width: 100%;
+}
+#c-all .content .feed-list .feed > a .wrap-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#c-all .content .feed-list .feed > a .wrap-wrap .text-wrap {
+  margin: 0 5px 0 0;
+}
+#c-all .content .feed-list .feed > a .wrap-wrap .text-wrap .feed-content {
+  width: 100%;
+}
+#c-all .content .feed-list .feed > a .wrap-wrap .text-wrap .feed-content h4 {
+  font-size: 12px;
+  color: rgb(136, 136, 136);
+  line-height: 18px;
+}
+#c-all .content .feed-list .feed > a .wrap-wrap .text-wrap .feed-content h3 {
+  font-size: 14px;
+  color: rgb(45, 45, 45);
+  list-style: 22px;
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+#c-all .content .feed-list .feed > a .wrap-wrap .text-wrap .feed-content .c {
+  color: rgb(136, 136, 136);
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: -0.3px;
+  margin-bottom: 10px;
+}
+#c-all .content .feed-list .feed > a .wrap-wrap .text-wrap .feed-content .l {
+  color: rgb(136, 136, 136);
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: -0.3px;
+  margin-bottom: 10px;
+}
+#c-all .content .feed-list .feed > a .wrap-wrap .img-wrap img {
+  border: 1px solid rgb(244, 244, 244);
+  border-radius: 8px;
+}
+#c-all .content .feed-list .feed > a .feed-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#c-all .content .feed-list .feed > a .feed-footer .span-wrap {
+  position: relative;
+}
+#c-all .content .feed-list .feed > a .feed-footer .span-wrap .span1 {
+  color: rgb(197, 197, 197);
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: -0.2px;
+  padding: 0 30px 0 20px;
+}
+#c-all .content .feed-list .feed > a .feed-footer .span-wrap .span1::before {
+  content: "";
+  width: 20px;
+  height: 16px;
+  background: url(../../../../../../public/images/community/content/icon-thumb.svg) no-repeat 50% 50%;
+  position: absolute;
+  top: 3px;
+  left: 0;
+  z-index: 3;
+}
+#c-all .content .feed-list .feed > a .feed-footer .span-wrap .span2 {
+  color: rgb(197, 197, 197);
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: -0.2px;
+}
+#c-all .content .feed-list .feed > a .feed-footer .span-wrap .span2::before {
+  content: "";
+  width: 20px;
+  height: 16px;
+  background: url(../../../../../../public/images/community/content/icon-list.svg) no-repeat 50% 50%;
+  position: absolute;
+  top: 4px;
+  left: 35px;
+  z-index: 3;
+}
+#c-all .content .feed-list .feed > a .feed-footer .span3 {
+  color: rgb(197, 197, 197);
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: -0.2px;
+}

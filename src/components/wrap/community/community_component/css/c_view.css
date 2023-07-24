@@ -1,0 +1,195 @@
+#view {
+  width: 100%;
+}
+#view .container {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+#view .container .header {
+  margin: 52px 0 0 0;
+}
+#view .container .header .header-row1 {
+  padding: 32px 0 16px 0;
+}
+#view .container .header .header-row1 > span:nth-child(1) {
+  font-size: 14px;
+  color: rgb(169, 169, 169);
+}
+#view .container .header .header-row1 > span:nth-child(2) > img {
+  margin: 0 3px;
+  width: 14px;
+  height: 14px;
+  transform: translateY(-2px);
+}
+#view .container .header .header-row1 > span:nth-child(3) {
+  font-size: 14px;
+  color: rgb(169, 169, 169);
+}
+#view .container .header .header-row2 {
+  margin: 16px 0 48px 0;
+}
+#view .container .header .header-row2 > ul > li > p {
+  font-size: 14px;
+  line-height: 21.98px;
+  color: rgb(136, 136, 136);
+  letter-spacing: -0.3px;
+  font-weight: 500;
+}
+#view .container .header .header-row2 > ul > li > h3 {
+  margin: 5px 0 5px 0;
+  font-size: 24px;
+  line-height: 38px;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  color: rgb(45, 45, 45);
+}
+#view .container .header .header-row2 > ul > li > h4 {
+  margin: 16px 0;
+  font-size: 14px;
+  line-height: 21.98px;
+  color: rgb(136, 136, 136);
+}
+#view .container .user-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0 24px 0;
+  border-bottom: 1px solid #eee;
+  position: relative;
+}
+#view .container .user-info .left {
+  display: flex;
+  justify-content: flex-start;
+}
+#view .container .user-info .left .img {
+  margin: 0 12px 0 0;
+}
+#view .container .user-info .left .img > img {
+  cursor: pointer;
+  width: 42px;
+  height: 42px;
+  border: 1px solid rgb(242, 242, 242);
+  border-radius: 10px;
+}
+#view .container .user-info .left .info > h5 {
+  font-size: 14px;
+  color: rgb(45, 45, 45);
+  letter-spacing: -0.3px;
+  line-height: 22px;
+}
+#view .container .user-info .left .info > h4 {
+  margin: 2px 0 0 0;
+  font-size: 12px;
+  letter-spacing: -0.2px;
+  line-height: 18px;
+  color: rgb(136, 136, 136);
+}
+#view .container .user-info .right {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 84px;
+}
+#view .container .user-info .right .img1 {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  display: block;
+}
+#view .container .user-info .right .img2 {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  display: block;
+}
+#view .container .user-info .del-upd {
+  position: absolute;
+  top: 33px;
+  right: 13px;
+  display: none;
+  background-color: #fff;
+}
+#view .container .user-info .del-upd.on {
+  display: block;
+}
+#view .container .user-info .del-upd > div {
+  width: 158px;
+  height: 100px;
+  text-align: center;
+  border: 1px solid rgb(225, 225, 225);
+  padding: 18px 0;
+  margin: 4px 0 0 0;
+}
+#view .container .user-info .del-upd > div .a1 {
+  display: block;
+  padding: 5px 0;
+  font-size: 14px;
+  line-height: 21px;
+}
+#view .container .user-info .del-upd > div .a1:hover {
+  color: #fff;
+  background-color: rgb(0, 199, 174);
+}
+#view .container .user-info .del-upd > div .a2 {
+  display: block;
+  padding: 5px 0;
+  font-size: 14px;
+  line-height: 21px;
+}
+#view .container .user-info .del-upd > div .a2:hover {
+  color: #fff;
+  background-color: rgb(0, 199, 174);
+}
+#view .container .body-content {
+  margin: 32px 0;
+}
+#view .container .body-content .textarea {
+  margin: 32px 0;
+}
+#view .container .body-content .textarea p {
+  font-size: 16px;
+  letter-spacing: -0.3px;
+  line-height: 24px;
+  color: rgb(45, 45, 45);
+}
+#view .container .body-content .imgarea {
+  margin: 24px 0;
+  width: 600px;
+}
+#view .container .body-content .imgarea > ul > li > img {
+  width: 600px;
+  height: 336px;
+  border-radius: 8px;
+}
+#view .container .bottom-icon {
+  display: flex;
+  justify-content: flex-start;
+}
+#view .container .bottom-icon .icon1 {
+  padding: 20px 4px;
+}
+#view .container .bottom-icon .icon1 > img {
+  width: 16px;
+  height: 16px;
+  margin: 0 4px 0 0;
+}
+#view .container .bottom-icon .icon1 > span {
+  font-size: 14px;
+  line-height: 16px;
+  color: rgb(136, 136, 136);
+}
+#view .container .bottom-icon .icon2 {
+  padding: 20px 4px;
+}
+#view .container .bottom-icon .icon2 > img {
+  width: 16px;
+  height: 16px;
+  margin: 0 4px 0 0;
+  transform: translateY(1.5px);
+}
+#view .container .bottom-icon .icon2 > span {
+  font-size: 14px;
+  line-height: 16px;
+  color: rgb(136, 136, 136);
+}
