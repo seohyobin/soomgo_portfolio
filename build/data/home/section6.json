@@ -1,0 +1,12 @@
+{
+    "portfolios":[
+        {"name":"만능민퍼니쳐", "title":"사무실 인테리어","job":"가구 수리","profile": "./images/home/section6/user_img01.webp", "img":"./images/home/section6/slide_img01.webp"},
+        {"name":"E. dit d...", "title":"남광 제안서 디자인","job":"인쇄물 디자인","profile": "./images/home/section6/user_img02.webp", "img":"./images/home/section6/slide_img02.webp"},
+        {"name":"공간철거", "title":"상가원상복구철거","job":"철거","profile": "./images/home/section6/user_img03.svg", "img":"./images/home/section6/slide_img03.webp"},
+        {"name":"이종원", "title":"나의 수학 과외 후","job":"수학 과외","profile": "./images/home/section6/user_img04.webp", "img":"./images/home/section6/slide_img04.webp"},
+        {"name":"한우리", "title":"따뜻한 느낌의 그림을 그립니다. ","job":"일러스트 디자인","profile": "./images/home/section6/user_img05.webp", "img":"./images/home/section6/slide_img05.webp"},
+        {"name":"이태윤", "title":"묘지 벌초","job":"벌초/예초","profile": "./images/home/section6/user_img06.webp", "img":"./images/home/section6/slide_img06.webp"},
+        {"name":"임우철", "title":"임우철","job":"연기 레슨","profile": "./images/home/section6/user_img07.webp", "img":"./images/home/section6/slide_img07.webp"},
+        {"name":"이태윤", "title":"인삼밭 캐기전 줄기벌초","job":"벌초/예초","profile": "./images/home/section6/user_img08.webp", "img":"./images/home/section6/slide_img08.webp"}
+    ]
+}

@@ -1,0 +1,52 @@
+#section9{
+    padding: 0 0 120px 0 ;
+    .container{
+        margin-bottom: 5rem;
+        max-width: 970px;
+        margin: 0 auto;
+        .title{
+            width: 100%;
+            text-align: left;
+            h2{
+                @include h2_text;
+                margin-bottom: 1.5rem;
+            }
+        }
+        .slide__container{
+            width: 100%;
+            position: relative;
+            .slide__gap{
+                width: 100%;
+                overflow: hidden;
+                .slide__wrap{
+                    display: grid;
+                    column-gap: 0.5rem;
+                    .slide__item{
+                        width: 100%;
+                        .slide__link{
+                            width: 100%;
+                            display: block;
+                            .slide__img{
+                                width: 100%;
+                                >img{
+                                    width: 100%;
+                                    object-fit: cover;
+                                }
+                            }
+                            .slide__text{
+                                text-align: left;
+                                p{
+                                    font-size: 1rem;
+                                    font-weight: 500;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .slide-btn__wrap{
+                @include main-slide__btn;
+            }
+        }
+    }
+}

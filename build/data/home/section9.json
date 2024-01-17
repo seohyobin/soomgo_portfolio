@@ -1,0 +1,42 @@
+{
+    "clean": [
+        {"category":"에어컨 청소", "img": "./images/home/section9/cleanImg_01.webp"},
+        {"category":"정리수납 컨설팅", "img": "./images/home/section9/cleanImg_02.webp"},
+        {"category":"이사/입주 청소 업체", "img": "./images/home/section9/cleanImg_03.webp"},
+        {"category":"실외기 청소", "img": "./images/home/section9/cleanImg_04.webp"},
+        {"category":"침대/매트리스 청소", "img": "./images/home/section9/cleanImg_05.webp"},
+        {"category":"바퀴벌레 퇴치", "img": "./images/home/section9/cleanImg_06.webp"}
+    ],
+    "car": [
+        {"category":"자동차 썬팅", "img": "./images/home/section9/carImg_01.webp"},
+        {"category":"출장 세차", "img": "./images/home/section9/carImg_02.webp"},
+        {"category":"자동차 외부 수리", "img": "./images/home/section9/carImg_03.webp"},
+        {"category":"블랙박스/내비게이션 설치 및 수리", "img": "./images/home/section9/carImg_04.webp"},
+        {"category":"디테일링세차/광택", "img": "./images/home/section9/carImg_05.webp"},
+        {"category":"스팀 세차", "img": "./images/home/section9/carImg_06.webp"}
+    ],
+    "house": [
+        {"category":"도배 시공", "img": "./images/home/section9/houseImg_01.webp"},
+        {"category":"욕실/화장실 리모델링", "img": "./images/home/section9/houseImg_02.webp"},
+        {"category":"폐기물 처리", "img": "./images/home/section9/houseImg_03.webp"},
+        {"category":"조명 인테리어", "img": "./images/home/section9/houseImg_04.webp"},
+        {"category":"페인트 시공", "img": "./images/home/section9/houseImg_05.webp"},
+        {"category":"가벽/파티션 인테리어", "img": "./images/home/section9/houseImg_06.webp"}
+    ],
+    "fix": [
+        {"category":"에어컨 설치 및 수리", "img": "./images/home/section9/fixImg_01.webp"},
+        {"category":"방충망 설치 및 수리", "img": "./images/home/section9/fixImg_02.webp"},
+        {"category":"벽걸이TV 설치 및 철거", "img": "./images/home/section9/fixImg_03.webp"},
+        {"category":"블라인드/커튼 제작/설치/수리", "img": "./images/home/section9/fixImg_04.webp"},
+        {"category":"전기 배선 설치 및 수리", "img": "./images/home/section9/fixImg_05.webp"},
+        {"category":"문 설치 및 수리", "img": "./images/home/section9/fixImg_06.webp"}
+    ],
+    "edu": [
+        {"category":"영어 과외", "img": "./images/home/section9/eduImg_01.webp"},
+        {"category":"퍼스널트레이닝(PT)", "img": "./images/home/section9/eduImg_02.webp"},
+        {"category":"골프 레슨", "img": "./images/home/section9/eduImg_03.webp"},
+        {"category":"피아노/키보드 레슨", "img": "./images/home/section9/eduImg_04.webp"},
+        {"category":"보컬 레슨", "img": "./images/home/section9/eduImg_05.webp"},
+        {"category":"스쿠버다이빙 강습", "img": "./images/home/section9/eduImg_06.webp"}
+    ]
+}

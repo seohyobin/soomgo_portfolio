@@ -1,0 +1,12 @@
+{
+    "mainServices": [
+        {"name": "영어 과외", "imgSrc": "./images/home/section3/main-service01.webp", "request": "877874"},
+        {"name": "퍼스널트레이닝(PT)", "imgSrc": "./images/home/section3/main-service02.webp", "request": "556006"},
+        {"name": "보컬 레슨", "imgSrc": "./images/home/section3/main-service03.webp", "request": "348775"},
+        {"name": "욕실/화장실 리모델링", "imgSrc": "./images/home/section3/main-service04.webp", "request": "318861"},
+        {"name": "도배장판 시공", "imgSrc": "./images/home/section3/main-service05.webp", "request": "300925"},
+        {"name": "전기 배선 설치 및 수리", "imgSrc": "./images/home/section3/main-service06.webp", "request": "239080"},
+        {"name": "집 인테리어", "imgSrc": "./images/home/section3/main-service07.webp", "request": "294556"},
+        {"name": "수학 과외", "imgSrc": "./images/home/section3/main-service08.webp", "request": "234470"}
+    ]
+}

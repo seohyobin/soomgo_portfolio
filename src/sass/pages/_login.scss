@@ -1,0 +1,196 @@
+#login{
+    width: 100%;
+    padding: 80px 0;
+    background: #fafafa;
+    .container{
+        width: 100%;
+        max-width: 420px;
+        margin: 0 auto;
+        .gap{
+            width: 100%;
+            .title{
+                font-size: 16px;
+                font-weight: 700;
+                text-align: center;
+                margin: 0 0 40px 0;
+            }
+            .content{
+                width: 100%;
+                max-width: 348px;
+                form{
+                    padding: 40px;
+                    display: inline-flex;
+                    align-items: center;
+                    justify-content: center;
+                    background: #fff;
+                    user-select: none;
+                     ul{
+                         li{
+                            .user_email{
+                                display: flex;
+                                flex-direction: column;
+                                width: 348px;
+                                height: 102px;
+                                label{
+                                    margin: 0 0 6px 0;
+                                    color: #323232;
+                                }
+                                input{
+                                    width: 338px;
+                                    height: 48px;
+                                    padding: 12px;
+                                    font-size: 16px;
+                                    border: 0.0625rem solid #e1e1e1;
+                                    border-radius: 3px;
+                                }
+                                p{
+                                    width: 100%;
+                                    margin-top: 4px;
+                                    font-size: 80%;
+                                    color: #fa5963;
+                                }
+                            }
+                            .user_pw{
+                                position: relative;
+                                display: flex;
+                                flex-direction: column;
+                                width: 348px;
+                                height: 102px;
+                                label{
+                                    position: relative;
+                                    margin: 0 0 6px 0;
+                                    color: #323232;
+                                }
+                                input{
+                                    position: relative;
+                                    width: 338px;
+                                    height: 48px;
+                                    padding: 12px;
+                                    font-size: 16px;
+                                    border: 0.0625rem solid #e1e1e1;
+                                    border-radius: 3px;
+                                }
+                                span{
+                                    z-index: 2;
+                                    position: absolute;
+                                    top: 40%;
+                                    right: 5%;
+                                    border: 0;
+                                    background: transparent;
+                                    font-size: 14px;
+                                    color: #00c7ae;
+                                    cursor: pointer;
+                                }
+                                p{
+                                    width: 100%;
+                                    margin-top: 4px;
+                                    font-size: 80%;
+                                    color: #fa5963;
+                                }
+                            }
+                            }
+                            .button-box{
+                                margin: 12px 0 0 0;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                button{
+                                    width: 338px;
+                                    height: 48px;
+                                    padding: 11px 12px;
+                                    border-radius: 3px;
+                                    line-height: 1.5;
+                                    font-size: 16px;
+                                    font-weight: 600;
+                                    &:hover{
+                                        background-color: #929292;
+                                    }
+                                }
+                            }
+                            .sign-box{
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                margin: 10px 76px 32px;
+                                a{
+                                    color: #737373;
+                                    font-size: 13px;
+                                    font-weight: 400;
+                                }
+                                .line{
+                                    background: #e1e1e1;
+                                    margin: auto 12px;
+                                    width: 1px;
+                                    height: 12px;
+                                }
+                            }
+                            .kakao-box{
+                                margin: 12px 0 0 0;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                button{
+                                    width: 338px;
+                                    height: 48px;
+                                    padding: 11px 12px;
+                                    background: #fee500;
+                                    border-radius: 3px;
+                                    line-height: 1.5;
+                                    font-size: 16px;
+                                    color: #323232;
+                                    img{
+                                        margin: 0 8px 0 0;
+                                    }
+                                    &:hover{
+                                        background-color: #cebc1c;
+                                    }
+                                }
+                            }
+                            .naver-box{
+                                margin: 12px 0 0 0;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                button{
+                                    width: 338px;
+                                    height: 48px;
+                                    padding: 11px 12px;
+                                    background: #03c75a;
+                                    border-radius: 3px;
+                                    line-height: 1.5;
+                                    font-size: 16px;
+                                    img{
+                                        margin: 0 8px 0 0;
+                                    }
+                                    &:hover{
+                                        background-color: #0da853;
+                                    }
+                                }
+                            }
+                            .facebook-box{
+                                margin: 12px 0 0 0;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                button{
+                                    width: 338px;
+                                    height: 48px;
+                                    padding: 11px 12px;
+                                    background: #1876f1;
+                                    border-radius: 3px;
+                                    line-height: 1.5;
+                                    font-size: 16px;
+                                    img{
+                                        margin: 0 8px 0 0;
+                                    }
+                                    &:hover{
+                                        background-color: #0f60c9;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }

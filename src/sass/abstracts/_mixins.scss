@@ -1,0 +1,82 @@
+@mixin layout_gap {
+    width: 100%;
+    max-width: 60.625rem;
+    margin: 0 auto;
+}
+// flex aline center
+@mixin align_center {
+    display: flex;
+    align-items: center;
+}
+// img object-fit: cover
+@mixin img_fit {
+    max-width: 100%;
+    margin: auto;
+    object-fit: cover;
+}
+// flex center
+@mixin layout_center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+// transition ease-in-out
+@mixin transition {
+    transition: all 0.3s ease-in-out;
+}
+// slide btn
+@mixin slide_btn {
+    width: 2.5rem;
+    height: 2.5rem;
+    border: 0;
+    border-radius: 50%;
+}
+// h2 text
+@mixin h2_text {
+    font-size: $h2-text__size;
+    color: $main-text__color;
+    font-weight: 700;
+}
+// icon img
+@mixin icon_img {
+    width: 1rem;
+    height: 1rem;
+    display: inline-block;
+}
+// text overflow
+@mixin text_overflow {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+// slide btn : 중복된 코드
+@mixin main-slide__btn{
+    .btn__item--prev{
+        position: absolute;
+        top: 40%;
+        left: -1rem;
+        transform: translateY(-50%);
+        button{
+            @include slide_btn;
+            background-color: $soomgo-white__color;
+            i{
+                font-size: 1.2rem;
+                color: $soomgo-main__color;
+            }
+        }
+    }
+    .btn__item--next{
+        position: absolute;
+        top: 40%;
+        right: -1rem;
+        transform: translateY(-50%);
+        button{
+            @include slide_btn;
+            background-color: $soomgo-white__color;
+            i{
+                font-size: 1.2rem;
+                color: $soomgo-main__color;
+            }
+        }
+    }
+}

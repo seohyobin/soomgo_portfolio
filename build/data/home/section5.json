@@ -1,0 +1,11 @@
+{
+    "curations": [
+        {"topic": "궁금해요", "title": "하수구 막힘 역류", "view": "142", "comment": "16", "img": "./images/home/section5/curation01.webp", "text": "싱크대랑 욕실 화장실이 막혀서 역류 해요 뚫어뻥으로 싱크대는 뚫었는데 싱크대 오염물이 화장실로 넘어 갔네요 하수구에 뚫어뻥을 쓰니 효과도 없고 …  보니까 세면대 밑으로도 연결 되어 있는데 세면대가 실리콘 공사 해놔서 안들려요 어째야 할까요.."},
+        {"topic": "얼마예요", "title": "주방 장식장 유리 문 시공 문의", "view": "113", "comment": "7", "img": "./images/home/section5/curation02.webp", "text": "주방 장식장에 유리 문 달고싶은데 견적 요청합니다"},
+        {"topic": "고수찾아요", "title": "노답 중문 수리 또는 시공 문의", "view": "56", "comment": "14", "img": "./images/home/section5/curation03.webp", "text": "중문이 씨름 선수 아니면 열고 닫을 수 없음 수리를 할래도 문을 끝까지 닫을 수도 없고 포켓형인거 같은데 포켓을 다 부셔야 철거가 될거 같음  이걸 돈주고 인테리어한 전주인이 원망스러움  방법 있을까요?"}
+    ],
+    "knowhows": [
+        {"author": "김민철", "title": "블라인드의 종류에 대해 알아보아요^^", "service": "블라인드/커튼 제작/설치/수리", "img": "./images/home/section5/knowhow01.webp"},
+        {"author": "Jason", "title": "당신이 영어를 못하는 진짜 이유", "service": "영어 과외", "img": "./images/home/section5/knowhow02.webp"}
+    ]
+}

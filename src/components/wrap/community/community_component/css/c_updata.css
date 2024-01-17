@@ -1,0 +1,262 @@
+#write {
+  width: 100%;
+}
+#write .container {
+  width: 100%;
+}
+#write .container .title {
+  width: 970px;
+  margin: 0 auto;
+  height: 56px;
+}
+#write .container .title .title-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 56px;
+  padding: 16px 0;
+}
+#write .container .title .title-header .select-box {
+  position: relative;
+}
+#write .container .title .title-header .select-box > select {
+  width: 105px;
+  font-size: 16px;
+  font-weight: 500;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border: 0;
+  color: #2d2d2d;
+}
+#write .container .title .title-header .select-box > select:focus {
+  outline: 0;
+}
+#write .container .title .title-header .select-box > img {
+  width: auto;
+  position: absolute;
+  top: 5.5px;
+  right: 15px;
+  width: 18px;
+  height: 18px;
+}
+#write .container .title .title-header .button > button {
+  border: 0;
+  background-color: transparent;
+  color: rgb(197, 197, 197);
+  font-size: 16px;
+  line-height: 24px;
+}
+#write .container .title .title-header .button > button.on {
+  color: rgb(0, 199, 174);
+}
+#write .container .row1-wrap {
+  width: 1903px;
+  height: 56px;
+  background-color: rgb(250, 250, 250);
+}
+#write .container .row1-wrap .row1 {
+  max-width: 970px;
+  height: 56px;
+  display: flex;
+  margin: 0 auto;
+  position: relative;
+}
+#write .container .row1-wrap .row1 .img-input > input {
+  display: none;
+}
+#write .container .row1-wrap .row1 .img-input .imgButton {
+  background-color: transparent;
+  position: relative;
+}
+#write .container .row1-wrap .row1 .img-input .imgButton > img {
+  position: absolute;
+  top: 3.5px;
+  left: 5px;
+}
+#write .container .row1-wrap .row1 .imglength-div {
+  position: absolute;
+  top: 14px;
+  left: 30px;
+}
+#write .container .row1-wrap .row1 .imglength-div span {
+  color: rgb(136, 136, 136);
+  font-size: 14px;
+}
+#write .container .content {
+  width: 100%;
+  max-width: 970px;
+  margin: 0 auto;
+}
+#write .container .content .row2 {
+  width: 100%;
+  height: 64px;
+  border-bottom: 1px solid #ddd;
+}
+#write .container .content .row2 > input {
+  border: 0;
+  padding: 20px 0;
+  font-size: 14px;
+  outline: 0;
+}
+#write .container .content .row2 > input::-moz-placeholder {
+  line-height: 24px;
+  font-weight: 500;
+}
+#write .container .content .row2 > input::placeholder {
+  line-height: 24px;
+  font-weight: 500;
+}
+#write .container .content .row3 {
+  border-bottom: 1px solid #ddd;
+  height: 61.969px;
+}
+#write .container .content .row3 .select-box {
+  display: flex;
+}
+#write .container .content .row3 .select-box .select1 {
+  padding: 20px 0;
+  margin: 0 24px 0 0;
+}
+#write .container .content .row3 .select-box .select1 > select {
+  width: 184px;
+  border: 0;
+  font-size: 14px;
+  color: rgb(136, 136, 136);
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background: url(../../../../../../public/images/community/write/icon-arrow-down.svg) no-repeat 100% 50%;
+}
+#write .container .content .row3 .select-box .select1 > select:focus {
+  outline: 0;
+}
+#write .container .content .row3 .select-box .select2 {
+  padding: 20px 0;
+  margin: 0 24px 0 0;
+}
+#write .container .content .row3 .select-box .select2 > select {
+  width: 184px;
+  font-size: 14px;
+  border: 0;
+  color: rgb(136, 136, 136);
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background: url(../../../../../../public/images/community/write/icon-arrow-down.svg) no-repeat 100% 50%;
+}
+#write .container .content .row3 .select-box .select2 > select:focus {
+  outline: 0;
+}
+#write .container .content .img-upload {
+  display: none;
+  width: 100%;
+  height: 104px;
+  margin: 12px;
+}
+#write .container .content .img-upload.on {
+  display: block;
+}
+#write .container .content .img-upload .img-place {
+  padding: 12px 0 0 0;
+}
+#write .container .content .img-upload .img-place .img-list {
+  position: relative;
+}
+#write .container .content .img-upload .img-place .img-list .img-area {
+  display: flex;
+}
+#write .container .content .img-upload .img-place .img-list .img-area .img-up1 {
+  margin: 0 10px;
+  width: 80px;
+  height: 80px;
+  border-radius: 8px;
+  border: 1px solid transparent;
+}
+#write .container .content .img-upload .img-place .img-list .img-area .img-up1.on {
+  border: 0;
+  display: none;
+}
+#write .container .content .img-upload .img-place .img-list .img-area .img-up2 {
+  margin: 0 10px;
+  width: 80px;
+  height: 80px;
+  border-radius: 8px;
+}
+#write .container .content .img-upload .img-place .img-list .img-area .img-up2.on {
+  border: 0;
+  display: none;
+}
+#write .container .content .img-upload .img-place .img-list .img-area .img-up3 {
+  margin: 0 10px;
+  width: 80px;
+  height: 80px;
+  border-radius: 8px;
+  border: 1px solid transparent;
+}
+#write .container .content .img-upload .img-place .img-list .img-area .img-up3.on {
+  border: 0;
+  display: none;
+}
+#write .container .content .img-upload .img-place .img-list .img-del {
+  position: relative;
+}
+#write .container .content .img-upload .img-place .img-list .img-del .img1 {
+  cursor: pointer;
+  background-color: rgb(255, 88, 97);
+  border-radius: 50%;
+  position: absolute;
+  top: -85px;
+  left: 75px;
+  width: 20px;
+  height: 20px;
+}
+#write .container .content .img-upload .img-place .img-list .img-del .img2 {
+  cursor: pointer;
+  background-color: rgb(255, 88, 97);
+  border-radius: 50%;
+  position: absolute;
+  top: -85px;
+  left: 175px;
+  width: 20px;
+  height: 20px;
+}
+#write .container .content .img-upload .img-place .img-list .img-del .img3 {
+  cursor: pointer;
+  background-color: rgb(255, 88, 97);
+  border-radius: 50%;
+  position: absolute;
+  top: -85px;
+  left: 275px;
+  width: 20px;
+  height: 20px;
+}
+#write .container .content .row4 {
+  width: 100%;
+  padding: 20px 0;
+}
+#write .container .content .row4 .text {
+  width: 100%;
+  position: relative;
+}
+#write .container .content .row4 .text > textarea {
+  width: 100%;
+  height: 360px;
+  border: 0;
+}
+#write .container .content .row4 .text > textarea:focus {
+  outline: 0;
+}
+#write .container .content .row4 .text > textarea::-moz-placeholder {
+  font-size: 14px;
+  color: rgb(136, 136, 136);
+  letter-spacing: -0.3px;
+  line-height: 22px;
+}
+#write .container .content .row4 .text > textarea::placeholder {
+  font-size: 14px;
+  color: rgb(136, 136, 136);
+  letter-spacing: -0.3px;
+  line-height: 22px;
+}
