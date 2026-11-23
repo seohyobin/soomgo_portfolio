@@ -1,0 +1,175 @@
+{
+  "info": {
+    "name": "Soomgo 로그인 API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": "soomgo_user_signin_action.jsp 테스트. baseUrl 변수만 바꾸면 실제 서버(http://janeseo0530.cafe24.com)로도 실행 가능"
+  },
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "http://localhost:3001"
+    },
+    {
+      "key": "email",
+      "value": "test@soomgo.com"
+    },
+    {
+      "key": "password",
+      "value": "abcd1234"
+    }
+  ],
+  "item": [
+    {
+      "name": "로그인 성공",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"상태 코드 200\", () => pm.response.to.have.status(200));",
+              "pm.test(\"응답 시간 2초 이내\", () => pm.expect(pm.response.responseTime).to.be.below(2000));",
+              "pm.test(\"결과값 1 (로그인 성공)\", () => pm.expect(pm.response.text().trim()).to.eql(\"1\"));"
+            ]
+          }
+        }
+      ],
+      "request": {
+        "method": "POST",
+        "url": {
+          "raw": "{{baseUrl}}/JSP/soomgo_user_signin_action.jsp?user_email={{email}}&user_pw={{password}}",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "JSP",
+            "soomgo_user_signin_action.jsp"
+          ],
+          "query": [
+            {
+              "key": "user_email",
+              "value": "{{email}}"
+            },
+            {
+              "key": "user_pw",
+              "value": "{{password}}"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "비밀번호 오류",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"상태 코드 200\", () => pm.response.to.have.status(200));",
+              "pm.test(\"응답 시간 2초 이내\", () => pm.expect(pm.response.responseTime).to.be.below(2000));",
+              "pm.test(\"결과값 0 (비밀번호 오류)\", () => pm.expect(pm.response.text().trim()).to.eql(\"0\"));"
+            ]
+          }
+        }
+      ],
+      "request": {
+        "method": "POST",
+        "url": {
+          "raw": "{{baseUrl}}/JSP/soomgo_user_signin_action.jsp?user_email={{email}}&user_pw=wrong999",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "JSP",
+            "soomgo_user_signin_action.jsp"
+          ],
+          "query": [
+            {
+              "key": "user_email",
+              "value": "{{email}}"
+            },
+            {
+              "key": "user_pw",
+              "value": "wrong999"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "미가입 회원",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"상태 코드 200\", () => pm.response.to.have.status(200));",
+              "pm.test(\"응답 시간 2초 이내\", () => pm.expect(pm.response.responseTime).to.be.below(2000));",
+              "pm.test(\"결과값 -1 (미가입)\", () => pm.expect(pm.response.text().trim()).to.eql(\"-1\"));"
+            ]
+          }
+        }
+      ],
+      "request": {
+        "method": "POST",
+        "url": {
+          "raw": "{{baseUrl}}/JSP/soomgo_user_signin_action.jsp?user_email=nobody@soomgo.com&user_pw={{password}}",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "JSP",
+            "soomgo_user_signin_action.jsp"
+          ],
+          "query": [
+            {
+              "key": "user_email",
+              "value": "nobody@soomgo.com"
+            },
+            {
+              "key": "user_pw",
+              "value": "{{password}}"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "비밀번호 누락",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"상태 코드 200\", () => pm.response.to.have.status(200));",
+              "pm.test(\"응답 시간 2초 이내\", () => pm.expect(pm.response.responseTime).to.be.below(2000));",
+              "pm.test(\"빈값 안내 문구 포함\", () => pm.expect(pm.response.text()).to.include(\"빈값은 허용하지 않습니다\"));"
+            ]
+          }
+        }
+      ],
+      "request": {
+        "method": "POST",
+        "url": {
+          "raw": "{{baseUrl}}/JSP/soomgo_user_signin_action.jsp?user_email={{email}}",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "JSP",
+            "soomgo_user_signin_action.jsp"
+          ],
+          "query": [
+            {
+              "key": "user_email",
+              "value": "{{email}}"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

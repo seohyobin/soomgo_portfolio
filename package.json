@@ -1,5 +1,5 @@
 {
-  "homepage":"http://janeseo0530.cafe24.com/soomgo",
+  "homepage": "http://janeseo0530.cafe24.com/soomgo",
   "name": "basic_frame",
   "version": "0.1.0",
   "private": true,
@@ -23,7 +23,13 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "e2e": "playwright test",
+    "e2e:ui": "playwright test --ui",
+    "e2e:report": "playwright show-report",
+    "auto:browser": "node automation/01-browser.js",
+    "auto:api": "node automation/02-api-test.js",
+    "auto:postman": "node automation/run-postman.js"
   },
   "eslintConfig": {
     "extends": [
@@ -42,5 +48,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "newman": "^6.2.3"
   }
 }
